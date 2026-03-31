@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3> Step 1: Setup Resources in Azure</h3>
 
-Create two cirtual machines
+Create two virtual machines
 
 - The first Virtual machine will be the Domain Controller.
     - Name: DC-1
