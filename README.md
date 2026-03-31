@@ -42,7 +42,7 @@ Create two virtual machines
 
 - Set DC-1's Virtual Network Interface Card (vNIC) private IP address to be static.
     - Go to DC-1's network settings
-    - Select Networking
+    - Select Network settings.
     - Select the link next to Network Interface
     - Select IP Configurations > ipconfig1
     - Change the assignment from dynamic to static
