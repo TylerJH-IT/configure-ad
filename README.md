@@ -55,7 +55,7 @@ Create two virtual machines
 
 - The second virtual machine will be the Client
   - Name: Client-1
-  - Image: Windows 10 Pro
+  - Image: Windows 10 Enterprise
   - Use the same resource group and vNet as DC-1
 
 <p>
