@@ -115,7 +115,7 @@ Log back into DC-1
   - Root domain name: mydomain.com
 - Select Next
 - Create a password
-- Select Next and follow the prompts
+- Select Next and click next until Prerequisites Check
 - Select Install to complete the installation
 
 <p>
@@ -130,7 +130,7 @@ Log back into DC-1
 
 - On DC-1, open Server Manager
 - Click Tools at the top-right of the screen
-- Select Active Directory.
+- Select Active Directory Users and Computers.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
