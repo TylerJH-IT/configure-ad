@@ -93,9 +93,9 @@ Create two virtual machines
 Log back into DC-1
 
 - Open Server Manager
-- Select "Add Roles and Features" > Follow the prompts
+- Select "Add Roles and Features" > Click Next until Server Roles
 - At Server Roles, check "Active Directory Domain Services"
-- Select Add Features > Select Next.
+- Select Add Features > Now select Next until you reach confirmation.
 - Complete the installation
 
 <p>
