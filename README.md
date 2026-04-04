@@ -190,12 +190,11 @@ Log back into DC-1
 <p>
 
 - Log back into Client-1 using Microsoft Remote Desktop as the original local admin
-- Right-Click the Start menu and select System
+- Open the start menu and select settings > click system > About
 - On the right-hand side of the screen, select Rename This PC (Advanced) > Change
 - Under "Member of" select Domain
 - Type "mydomain.com" and select OK
-  - Username: mydomain.com\jane_admin
-  - Type in the password and press OK
+  - Now type in the password you made and your username.
 - Restart the Virtual Machine
 
 <p>
@@ -203,15 +202,15 @@ Log back into DC-1
 </p>
 <p>
 
-<h3>Step 7: Setup Remote Desktop for non-administrative users on Client-1</h3>
+<h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1</h3>
 
 - Log back into Client-1
 - login using mydomain.com\jane_admin and the password you made.
 - Right-click the Start menu and select System
-- On the right-hand side of the screen, select Remote Desktop
+- Select Remote Desktop
 - Under User Accounts, click "select Users That Can Remotely Access This PC" > select Add
 - Type in the name of your domain users
-- Select "Check Names" > OK > OK
+- Select "Check Names" > OK > Select Domain Users > OK
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -236,7 +235,7 @@ Log back into DC-1
 - Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES. And you will see all the accounts that were created
 - You can now log into Client-1 with one of the accounts that were created.
   - Try logging into Client-1 as one of the users
-    - Username: mydomain.com\base.milu
+    - Username: mydomain.com\cix.bav
     - Password: Password1
 
 <p>
