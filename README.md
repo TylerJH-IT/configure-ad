@@ -177,12 +177,12 @@ Log back into DC-1
 <h3>Step 5: Join Client-1 to your domain</h3>
 
 - Go back to the Azure portal
-- Navigate to the Client'1 Virutal Machine
-- On the left-hand side of the screen select Networking
+- Navigate to the Client-1 Virutal Machine
+- On the left-hand side of the screen select Network settings
 - Select the link next to the NIC > select DNS Server > Custom
 - Type in DC-1's private IP address
 - Click Save
-- After it is done updating, select Restart and select Yes
+- After it is done updating, Restart DC-1 and Client-1
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
