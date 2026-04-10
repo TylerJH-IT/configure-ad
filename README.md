@@ -345,10 +345,7 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 
 <h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1</h3>
 
