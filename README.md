@@ -261,22 +261,18 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 - Go to the _ADMINS OU
 - Right-click Jane Doe > Select Properties
   - Click the tab named "Member of" > select Add
   - Type in the names of your domain administrators
-  - Select "Check Names" > OK > Apply
+  - Select "Check Names" > OK
 - Log out of DC-1 and log back in as "mydomain.com\jane_admin"
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
