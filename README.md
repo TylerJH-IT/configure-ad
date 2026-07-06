@@ -36,6 +36,10 @@ Create two virtual machines
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 - Set DC-1's Virtual Network Interface Card (vNIC) private IP address to be static.
     - Go to DC-1's network settings
