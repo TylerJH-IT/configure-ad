@@ -41,7 +41,8 @@ Create two virtual machines
 </p>
 <p>
 
-- Set DC-1's Virtual Network Interface Card (vNIC) private IP address to be static.
+
+<h3> Step 2: Set DC-1's Virtual Network Interface Card (vNIC) private IP address to be static. <h3>
     - Go to DC-1's network settings
     - Select Network settings.
     - Select the link next to Network Interface
@@ -49,6 +50,7 @@ Create two virtual machines
     - Change the assignment from dynamic to static
       - This ensures DC-1's IP address will not change.
 
+<h3>                               </h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -62,11 +64,14 @@ Create two virtual machines
 </p>
 <p>
 
-- The second virtual machine will be the Client
+<h3> Step 3: Creating the second Virtual Machine </h3>
+  - The second virtual machine will be the Client
   - Name: Client-1
   - Image: Windows 10 Enterprise
   - Use the same resource group and vNet as DC-1
 
+<h3>                               </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -80,7 +85,7 @@ Create two virtual machines
 </p>
 <p>
 
-<h3>Step 2: Ensure Connectivity between the Client and Domain Controller</h3>
+<h3> Step 4: Ensure Connectivity between the Client and Domain Controller</h3>
 
 - Login to Client-1 using Microsoft Remote Desktop
 - Search for Command Prompt and open it
@@ -88,6 +93,8 @@ Create two virtual machines
   - The ping request continually times out due to the fire wall settings.
     - To fix this, we need to enable Echo Requests on DC-1's local Windows firewall.
 
+<h3>                            </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -101,12 +108,14 @@ Create two virtual machines
 </p>
 <p>
 
-- Login to DC-1 using Microsoft Remote Desktop
+<h3> Step 5: Login to DC-1 using Microsoft Remote Desktop </h3>
   - Start > Windows Administrative Tools > Windows Defender Firewall with Advanced Security > Inbound Rules
   - Sort the list by protocols
   - Look for ICMPv4 protocols > Right Click on echo requests and Enable Rule. This will now allow the clients DNS server to establish connection with the server.
   - Log back into Client-1 and the command line will automatically being pinging DC-1 Successfully.
 
+<h3>                          </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -120,7 +129,9 @@ Create two virtual machines
 </p>
 <p>
 
-<h3>Step 3: Install Active Directory</h3>
+<h2> Active Directory</h2>
+
+<h3>Step 6: Install Active Directory</h3>
 
 Log back into DC-1
 
@@ -130,6 +141,8 @@ Log back into DC-1
 - Select Add Features > Now select Next until you reach confirmation.
 - Complete the installation
 
+<h3>                             </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -143,9 +156,12 @@ Log back into DC-1
 </p>
 <p>
 
+<h3> Step 7: Promoting to Domain Controller </h3>
 - At the top right of the Server Manager Dashboard, click on the flag
 - Select "Promote this Server to a Domain Controller"
 
+<h3>                                    </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -158,6 +174,8 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 8: Creating Domain</h3>
 
 - Select "Add a New Forest"
   - Root domain name: mydomain.com
@@ -165,29 +183,32 @@ Log back into DC-1
 - Create a password
 - Select Next and click next until Prerequisites Check
 - Select Install to complete the installation
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
 - Dc-1 will automatically restart
 - Log back into DC-1 once it's restarted.
 
-<h3>Step 4: Create an Admin and Normal User Account in Active Directory</h3>
+<h3>                                               </h3>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<h3>Step 9: Create an Admin and Normal User Account in Active Directory</h3>
 
 - On DC-1, open Server Manager
 - Click Tools at the top-right of the screen
 - Select Active Directory Users and Computers.
 
+<h3>                                                   </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -200,12 +221,16 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 10: Organizational Unit</h3>
 
 - Right-click mydomain.com > New > Select Organizational Unit (OU)
 - Create two OUs
   - Name the first "_EMPLOYEES"
   - Name the second "_ADMINS"
 
+<h3>                           </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -218,6 +243,8 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 11: Admins </h3>
 
 - Right-click mydomain.com and click refresh to sort the new organizational units to the top
 - Go to the _ADMINS OU
@@ -229,6 +256,8 @@ Log back into DC-1
   - Uncheck all boxes
   - Select Next and then select Finish
 
+<h3>                      </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -241,6 +270,8 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 12: Jane Doe</h3>
 
 - Go to the _ADMINS OU
 - Right-click Jane Doe > Select Properties
@@ -249,6 +280,8 @@ Log back into DC-1
   - Select "Check Names" > OK
 - Log out of DC-1 and log back in as "mydomain.com\jane_admin"
 
+<h3>                                                    </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -262,7 +295,7 @@ Log back into DC-1
 </p>
 <p>
 
-<h3>Step 5: Join Client-1 to your domain</h3>
+<h3>Step 13: Join Client-1 to your domain part 1</h3>
 
 - Go back to the Azure portal
 - Navigate to the Client-1 Virutal Machine
@@ -272,6 +305,8 @@ Log back into DC-1
 - Click Save
 - After it is done updating, Restart DC-1 and Client-1
 
+<h3>                                                                                </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -284,6 +319,8 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 14: Join Client-1 to your domain part 2</h3>
 
 - Log back into Client-1 using Microsoft Remote Desktop as the original local admin
 - Open the start menu and select settings > click system > About
@@ -293,6 +330,8 @@ Log back into DC-1
   - Now type in the password you made and your username.
 - Restart the Virtual Machine
 
+<h3>                                                            </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -306,7 +345,7 @@ Log back into DC-1
 </p>
 <p>
 
-<h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1</h3>
+<h3>Step 15: Setup Remote Desktop for non-administrative users on Client-1</h3>
 
 - Log back into Client-1
 - login using mydomain.com\jane_admin and the password you made.
@@ -316,6 +355,8 @@ Log back into DC-1
 - Type in the name of your domain users
 - Select "Check Names" > OK > Select Domain Users > OK
 
+<h3>                                                                </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -329,7 +370,7 @@ Log back into DC-1
 </p>
 <p>
 
-<h3>Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles</h3>
+<h3>Step 16: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles part 1</h3>
 
 - Log back into DC-1 as jane_admin
 - Search for powershell_ise
@@ -337,6 +378,8 @@ Log back into DC-1
 - At the top-left of the screen select New Script and past the contents of the following script into it.
   - You can find the script here [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1]
 
+<h3>                                                                                                                            </h3>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -349,6 +392,8 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<h3> Step 17: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles part 2</h3>
 
 - Click the green arrow button near the top-middle of the screen
   - This will run the script
