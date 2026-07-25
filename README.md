@@ -414,6 +414,9 @@ Log back into DC-1
 </p>
 <p>
 
+<h2> Saving funds after demonstration</h2>
+
+<h3>Step 18: Finishing the test</h3>
 
 - Once your done with this test and won't be using it. Do remember to delete the Resource Group and the Virtual Machines like I showed in osTicket Ticket Lifecycle.
         - https://github.com/TylerJH-IT/ticket-lifecycle
