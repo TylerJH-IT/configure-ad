@@ -413,3 +413,7 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+
+- Once your done with this test and won't be using it. Do remember to delete the Resource Group and the Virtual Machines like I showed in osTicket Ticket Lifecycle.
+        - https://github.com/TylerJH-IT/ticket-lifecycle
