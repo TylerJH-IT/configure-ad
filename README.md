@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3> Step 1: Setup Resources in Azure</h3>
 
-Create two virtual machines
+Create two virtual machines and a Resource Group
 
 - The first Virtual machine will be the Domain Controller.
     - Name: DC-1
@@ -69,6 +69,7 @@ Create two virtual machines
   - Name: Client-1
   - Image: Windows 10 Enterprise
   - Use the same resource group and vNet as DC-1
+  - You may need to mess with the zone in order for the vNet to show up.
 
 <h3>                               </h3>
 
@@ -87,7 +88,7 @@ Create two virtual machines
 
 <h3> Step 4: Ensure Connectivity between the Client and Domain Controller</h3>
 
-- Login to Client-1 using Microsoft Remote Desktop
+- Login to Client-1 using Microsoft Remote Desktopp
 - Search for Command Prompt and open it
 - Ping DC-1's private IP Address (for example, 10.1.0.4)
   - The ping request continually times out due to the fire wall settings.
@@ -108,7 +109,8 @@ Create two virtual machines
 </p>
 <p>
 
-<h3> Step 5: Login to DC-1 using Microsoft Remote Desktop </h3>
+<h3> Step 5: Enabling Echo Request </h3>
+  - Login to DC-1 using Microsoft Remote Desktop
   - Start > Windows Administrative Tools > Windows Defender Firewall with Advanced Security > Inbound Rules
   - Sort the list by protocols
   - Look for ICMPv4 protocols > Right Click on echo requests and Enable Rule. This will now allow the clients DNS server to establish connection with the server.
@@ -180,11 +182,11 @@ Log back into DC-1
 - Select "Add a New Forest"
   - Root domain name: mydomain.com
 - Select Next
-- Create a password
+- Create a password and uncheck DND delegation
 - Select Next and click next until Prerequisites Check
 - Select Install to complete the installation
-- Dc-1 will automatically restart
-- Log back into DC-1 once it's restarted.
+- Dc-1 will automatically restart once it's done
+- Give it a few minutes and log back into DC-1 once it's restarted.
 
 <h3>                                               </h3>
 
@@ -276,7 +278,7 @@ Log back into DC-1
 - Go to the _ADMINS OU
 - Right-click Jane Doe > Select Properties
   - Click the tab named "Member of" > select Add
-  - Type in the names of your domain administrators
+  - Type in domain admins
   - Select "Check Names" > OK
 - Log out of DC-1 and log back in as "mydomain.com\jane_admin"
 
@@ -322,7 +324,7 @@ Log back into DC-1
 
 <h3> Step 14: Join Client-1 to your domain part 2</h3>
 
-- Log back into Client-1 using Microsoft Remote Desktop as the original local admin
+- Log back into Client-1 using Microsoft Remote Desktop as yourself
 - Open the start menu and select settings > click system > About
 - On the right-hand side of the screen, select Rename This PC (Advanced) > Change
 - Under "Member of" select Domain
@@ -347,13 +349,13 @@ Log back into DC-1
 
 <h3>Step 15: Setup Remote Desktop for non-administrative users on Client-1</h3>
 
-- Log back into Client-1
+- Log back into Client-1 once it's done restarting
 - login using mydomain.com\jane_admin and the password you made.
-- Right-click the Start menu and select System
+- Left-click the Start menu and open settings then select System
 - Select Remote Desktop
 - Under User Accounts, click "select Users That Can Remotely Access This PC" > select Add
-- Type in the name of your domain users
-- Select "Check Names" > OK > Select Domain Users > OK
+- Type in domain users
+- Select "Check Names" > OK > OK
 
 <h3>                                                                </h3>
 
@@ -375,7 +377,7 @@ Log back into DC-1
 - Log back into DC-1 as jane_admin
 - Search for powershell_ise
 - Right-click on Powershell_ise and open it as an administrator
-- At the top-left of the screen select New Script and past the contents of the following script into it.
+- At the top-left of the screen select New Script and paste the contents of the following script into it.
   - You can find the script here [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1]
 
 <h3>                                                                                                                            </h3>
@@ -397,10 +399,10 @@ Log back into DC-1
 
 - Click the green arrow button near the top-middle of the screen
   - This will run the script
-- Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES. And you will see all the accounts that were created
+- Once enough users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES. And you will see all the accounts that were created
 - You can now log into Client-1 with one of the accounts that were created.
-  - Try logging into Client-1 as one of the users
-    - Username: mydomain.com\cix.bav
+  - Try logging into Client-1 as one of the users, below being an example.
+    - Username: mydomain.com\bid.res
     - Password: Password1
 
 <p>
