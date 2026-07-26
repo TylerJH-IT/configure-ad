@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3> Step 1: Setup Resources in Azure</h3>
 
-Create two virtual machines and a Resource Group
+Create two virtual machines and one Resource Group
 
 - The first Virtual machine will be the Domain Controller.
     - Name: DC-1
@@ -63,6 +63,10 @@ Create two virtual machines and a Resource Group
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3> Step 3: Creating the second Virtual Machine </h3>
   - The second virtual machine will be the Client
@@ -73,10 +77,6 @@ Create two virtual machines and a Resource Group
 
 <h3>                               </h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -130,6 +130,18 @@ Create two virtual machines and a Resource Group
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h2> Active Directory</h2>
 
@@ -157,6 +169,10 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3> Step 7: Promoting to Domain Controller </h3>
 - At the top right of the Server Manager Dashboard, click on the flag
@@ -164,10 +180,6 @@ Log back into DC-1
 
 <h3>                                    </h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -202,6 +214,10 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3>Step 9: Create an Admin and Normal User Account in Active Directory</h3>
 
@@ -211,10 +227,6 @@ Log back into DC-1
 
 <h3>                                                   </h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -233,10 +245,6 @@ Log back into DC-1
 
 <h3>                           </h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -296,6 +304,10 @@ Log back into DC-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 <h3>Step 13: Join Client-1 to your domain part 1</h3>
 
@@ -334,6 +346,10 @@ Log back into DC-1
 
 <h3>                                                            </h3>
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -405,6 +421,10 @@ Log back into DC-1
     - Username: mydomain.com\bid.res
     - Password: Password1
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
