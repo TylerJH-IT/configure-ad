@@ -29,15 +29,15 @@ Create two virtual machines and one Resource Group
     - Take note of the Virtual Network (vNet) that is automatically created.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l8CDCfv.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zAsvhPX.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vs1Lgwm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -52,19 +52,19 @@ Create two virtual machines and one Resource Group
 
 <h3>                               </h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QTygkJR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wyksGyw.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bovVm7T.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tEnWT5v.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -78,11 +78,11 @@ Create two virtual machines and one Resource Group
 <h3>                               </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e5nbjP0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Sr9qyvq.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -97,15 +97,15 @@ Create two virtual machines and one Resource Group
 <h3>                            </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VCGTqps.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OUHZICp.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EJ2vGYW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -119,27 +119,30 @@ Create two virtual machines and one Resource Group
 <h3>                          </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4Q0qECo.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/al9Y1gF.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qnlO8oV.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+
+<p>
+<img src="https://i.imgur.com/N7QaTEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J4q7AEn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4n21aqs.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -158,19 +161,19 @@ Log back into DC-1
 <h3>                             </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g61ZO9z.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JqvTOHR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4fpWRoj.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/thUoNss.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -181,11 +184,11 @@ Log back into DC-1
 <h3>                                    </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Zjsbdwr.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GzXfUhp.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -203,19 +206,19 @@ Log back into DC-1
 <h3>                                               </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VFnRC6D.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yBGCguK.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IiuXrjM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gsyjfoC.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -228,11 +231,11 @@ Log back into DC-1
 <h3>                                                   </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vHa40cM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gxch08F.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -246,11 +249,11 @@ Log back into DC-1
 <h3>                           </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MQDptHT.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hlRqn9b.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -269,15 +272,15 @@ Log back into DC-1
 <h3>                      </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FltuFWO.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oe43fZ0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LbZWUoH.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -293,19 +296,19 @@ Log back into DC-1
 <h3>                                                    </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CCTFLro.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3xhrXor.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cPM1G19.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1TS1eFm.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -322,15 +325,15 @@ Log back into DC-1
 <h3>                                                                                </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TXOo8LF.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kSzJsYC.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vWE92p0.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -347,19 +350,19 @@ Log back into DC-1
 <h3>                                                            </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZVOf8ZB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7EYKNtt.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mvNAJT9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Iok4Khb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -376,15 +379,15 @@ Log back into DC-1
 <h3>                                                                </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HnXE8sw.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ddpsOB3.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/86qDUDC.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -399,15 +402,15 @@ Log back into DC-1
 <h3>                                                                                                                            </h3>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p5Q0Lef.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JQEjb4y.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pnTkzpk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -422,15 +425,15 @@ Log back into DC-1
     - Password: Password1
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yuBOUc9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jQCYX3n.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OIYP5Ym.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
