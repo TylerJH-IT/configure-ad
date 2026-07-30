@@ -396,7 +396,7 @@ Log back into DC-1
 - Log back into DC-1 as jane_admin
 - Search for powershell_ise
 - Right-click on Powershell_ise and open it as an administrator
-- At the top-left of the screen select New Script and paste the contents of the following script into it.
+- At the top-left of the screen select New Script and paste the contents of the following script into it. What this script will do is create around 1,000 users for this domain.
   - You can find the script here [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1]
 
 <h3>                                                                                                                            </h3>
