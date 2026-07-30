@@ -242,7 +242,7 @@ Log back into DC-1
 <h3> Step 10: Organizational Unit</h3>
 
 - Right-click mydomain.com > New > Select Organizational Unit (OU)
-- Create two OUs
+- Create two OUs, do not misspell these as getting even one letter wrong will mess up steps 16 & 17
   - Name the first "_EMPLOYEES"
   - Name the second "_ADMINS"
 
